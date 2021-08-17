@@ -38,5 +38,34 @@ router.post("/api/workouts", (req, res) => {
 //add exercise to workout
 
 router.put("/api/workouts/:id", ({ params, body }, res => {
+    //update based on id and push new exercise into workout
     Workout.findOneandUpdate({ _id: params.id }, { $push: { exercise: body } }, { new: true })
+        .then((fitnesstrackerdb) => {
+            res.json(fitnesstrackerdb)
+        })
+        .catch((err) => {
+            res.json(err);
+        });
+
+    //workouts in the last seven dats
+    router.get("api/workouts/stats", (req, res) => {
+        Workout.aggregate([{
+                $addFields: {
+                    totalDuration: {
+                        $sum: "$exercise.duration",
+                    },
+                },
+            }, ])
+            .sort({ _id: -1 })
+            .limit(7)
+            .then((fitnesstrackerdb) => {
+                console.log(fitnesstrackerdb);
+                res.json(fitnesstrackerdb);
+            })
+            .catch((err) => {
+                res.json(err);
+            });
+    });
 }))
+
+module.exports = router;

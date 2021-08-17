@@ -4,7 +4,7 @@ const logger = require("morgan");
 const path = require("path");
 const db = require("./Develop/models/Workout");
 const routes = require("./Develop/controllers");
-const viewRoutes = require("./Develop/controllers/view/viewRoutes.js");
+const viewRoutes = require("./Develop/controllers/view/viewRoutes");
 const api = require("./Develop/controllers/api/apiRoutes");
 
 const PORT = process.env.PORT || 3000;

@@ -1,9 +1,9 @@
-const workout = ("../models/Workout.js");
+// const Workout = ("../models/Workout.js");
 const mongoose = require("mongoose");
 const path = require("path");
 const express = require("express");
 const router = require("express").Router();
-const index = require("../api/index");
+// const index = require("../api/index");
 const Workout = require("../../models/Workout");
 
 //route to get all the workouts out from the db
@@ -37,9 +37,10 @@ router.post("/api/workouts", (req, res) => {
 
 //add exercise to workout
 
-router.put("/api/workouts/:id", ({ params, body }, res => {
+router.put("/api/workouts/:id", ({ params, body }, res) => {
     //update based on id and push new exercise into workout
-    Workout.findOneandUpdate({ _id: params.id }, { $push: { exercise: body } }, { new: true })
+    console.log(params);
+    Workout.findByIdandUpdate(params.id, { $push: { exercise: body } }, { new: true })
         .then((fitnesstrackerdb) => {
             res.json(fitnesstrackerdb)
         })
@@ -66,6 +67,6 @@ router.put("/api/workouts/:id", ({ params, body }, res => {
                 res.json(err);
             });
     });
-}))
+})
 
 module.exports = router;

@@ -9,4 +9,5 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 
 ## Agknowledgments
-Thanks to Jessamyn McTwigan and Christyn Garcia for letting me with references to her code;
+A special thanks to my classmates Jessamyn McTwigan and Christyn Garcia for letting me reference their code.
+"Last, but not least, I would like to thank me. I want to thank me for believing in me, I want to thank me for doing all this hard work. I wanna thank me for having no days off. I wanna thank me for never quitting. I wanna thank me for always been a giver and trying to give more than I receive. I want to thank me for trying to do more right than wrong. I want to thank me for just being me at all times.” --Snoop Dog

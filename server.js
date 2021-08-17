@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(viewRoutes);
+//the 'api' below works but for some weird reason, 'viewRoutes' will not!
 app.use(api);
 
 app.use(express.urlencoded({ extended: true }));

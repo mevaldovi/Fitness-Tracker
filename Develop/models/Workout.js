@@ -7,25 +7,43 @@ const workoutSchema = new Schema({
     },
 
     exercises: [{
-        name: {},
+        name: {
+            type: String,
+            trim: true,
+            required: true,
+        },
 
-        type: {},
+        type: {
+            type: String,
+            trim: true,
+            required: true,
+        },
 
-        weight: {},
+        weight: {
+            type: Number,
+        },
 
-        sets: {},
+        sets: {
+            type: Number,
+        },
 
-        reps: {},
+        reps: {
+            type: Number,
+        },
 
-        duration: {},
+        duration: {
+            type: Number,
+            required: true,
+        },
 
-        // if ("cardio") {
-        //     distancetraveled: {}
-        // }
+        distancetraveled: {
+            type: Number
+        },
 
-
-    }, ];
+    }]
 });
-const Workout = mongoose.model("Workout", workoutSchema)
+const Workout = mongoose.model("Workout", workoutSchema);
 
-module.exports = Workout;
+module.exports = {
+    Workout
+};

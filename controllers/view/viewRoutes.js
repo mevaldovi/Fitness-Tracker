@@ -4,7 +4,7 @@ const router = require("express").Router();
 const Workout = require("../../models/Workout");
 
 //route to get all the workouts out from the db
-router.get("api/workouts", (req, res) => {
+router.get("/api/workouts", (req, res) => {
     Workout.aggregate([{
             $addFields: {
                 totalDuration: {
@@ -35,36 +35,37 @@ router.post("/api/workouts", (req, res) => {
 //add exercise to workout
 
 router.put("/api/workouts/:id", ({ params, body }, res) => {
-    //update based on id and push new exercise into workout
-    console.log(params);
-    Workout.findByIdandUpdate(params.id, { $push: { exercise: body } }, { new: true })
-        .then((fitnesstrackerdb) => {
-            res.json(fitnesstrackerdb)
-        })
-        .catch((err) => {
-            res.json(err);
-        });
-
-    //workouts in the last seven dats
-    router.get("api/workouts/stats", (req, res) => {
-        Workout.aggregate([{
-                $addFields: {
-                    totalDuration: {
-                        $sum: "$exercise.duration",
-                    },
-                },
-            }, ])
-            .sort({ _id: -1 })
-            .limit(7)
+        //update based on id and push new exercise into workout
+        console.log(params);
+        Workout.findByIdAndUpdate(params.id, { $push: { exercise: body } }, { new: true })
             .then((fitnesstrackerdb) => {
-                console.log(fitnesstrackerdb);
-                res.json(fitnesstrackerdb);
+                res.json(fitnesstrackerdb)
             })
             .catch((err) => {
                 res.json(err);
             });
-    });
-})
+
+    })
+    //workouts in the last seven days
+router.get("/api/workouts/range", (req, res) => {
+    Workout.aggregate([{
+            $addFields: {
+                totalDuration: {
+                    $sum: "$exercise.duration",
+                },
+            },
+        }, ])
+        .sort({ _id: -1 })
+        .limit(7)
+        .then((fitnesstrackerdb) => {
+            console.log(fitnesstrackerdb);
+            res.json(fitnesstrackerdb);
+        })
+        .catch((err) => {
+            res.json(err);
+        });
+});
+
 
 router.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../../public/index.html"));

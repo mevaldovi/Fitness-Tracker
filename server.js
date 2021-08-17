@@ -4,14 +4,14 @@ const logger = require("morgan");
 const path = require("path");
 const db = require("./Develop/models")
 const routes = require("./Develop/controllers");
-const view = require("./Develop/controllers/view/viewRoutes");
+const viewRoutes = require("./Develop/controllers/view/viewRoutes");
 const api = require("./Develop/controllers/api/apiRoutes");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(viewRoutes);
-app.use(apiRoutes);
+app.use(api);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -25,7 +25,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 });
 
 // routes
-app.use(require("./routes/api.js"));
+app.use(require("./Develop/controllers/api"));
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);

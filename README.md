@@ -7,23 +7,23 @@ Creates a fitness tracker that allows a user to view, track , and create daily w
 HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Table of Contents
-[Description](https://github.com/mevaldovi/Homework12_TechBlog#Description)
+[Description](https://github.com/mevaldovi/Homework14_FitnessTracker#Description)
 
-[Technology](https://github.com/mevaldovi/Homework12_TechBlog#Technology)
+[Technology](https://github.com/mevaldovi/Homework14_FitnessTracker#Technology)
 
-[Installation](https://github.com/mevaldovi/Homework12_TechBlog#Installation)
-
-
-[Usage](https://github.com/mevaldovi/Homework12_TechBlog#Usage)
+[Installation](https://github.com/mevaldovi/Homework14_FitnessTracker#Installation)
 
 
-[License](https://github.com/mevaldovi/Homework12_TechBlog#License)
+[Usage](https://github.com/mevaldovi/Homework14_FitnessTracker#Usage)
 
 
-[Contact Info](https://github.com/mevaldovi/Homework12_TechBlog#Contact)
+[License](https://github.com/mevaldovi/Homework14_FitnessTracker#License)
 
 
-[Agnowledgments](https://github.com/mevaldovi/Homework12_TechBlog#Agknowledgments)
+[Contact Info](https://github.com/mevaldovi/Homework14_FitnessTracker#Contact)
+
+
+[Agnowledgments](https://github.com/mevaldovi/Homework14_FitnessTracker#Agknowledgments)
 
 # Installation
 [Heroku](https://fitness-tracker-mv.herokuapp.com/?id=611d8e37e2be680016012733). 

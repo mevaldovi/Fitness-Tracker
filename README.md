@@ -1,4 +1,6 @@
 # Homework14_FitnessTracker
+<img width="464" alt="fitness-tracker" src="https://user-images.githubusercontent.com/83307023/135528279-7452f284-1dac-4639-9314-ddcff1de1958.PNG">
+
 
 ## Description
 Creates a fitness tracker that allows a user to view, track , and create daily workouts. A training athlete, whether in professional or personal pursuit, can better achieve daily and weekly fitness goals if they can also track their workouts. The user can either create new workouts or continue with their last workout.
@@ -26,7 +28,7 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 [Agnowledgments](https://github.com/mevaldovi/Homework14_FitnessTracker#Agknowledgments)
 
 # Installation
-[Heroku](https://fitness-tracker-mv.herokuapp.com/?id=611d8e37e2be680016012733). 
+[Deployed app](https://fitness-tracker-mv.herokuapp.com/?id=611d8e37e2be680016012733). 
 If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.
 # Usage
 Simply open the application, click "New Workout" and have fun with it!

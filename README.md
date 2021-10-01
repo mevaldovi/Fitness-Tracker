@@ -28,7 +28,7 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 [Agnowledgments](https://github.com/mevaldovi/Fitness-Tracker#Agknowledgments)
 
 # Installation
-[Deployed app](). 
+[Deployed app](https://the-fitness-tracker2.herokuapp.com/). 
 
 
 If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.

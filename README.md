@@ -1,4 +1,4 @@
-# Homework14_FitnessTracker
+# Fitness-Tracker
 <img width="464" alt="fitness-tracker" src="https://user-images.githubusercontent.com/83307023/135528279-7452f284-1dac-4639-9314-ddcff1de1958.PNG">
 
 
@@ -9,26 +9,26 @@ Creates a fitness tracker that allows a user to view, track , and create daily w
 HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Table of Contents
-[Description](https://github.com/mevaldovi/Homework14_FitnessTracker#Description)
+[Description](https://github.com/mevaldovi/Fitness-Tracker#Description)
 
-[Technology](https://github.com/mevaldovi/Homework14_FitnessTracker#Technology)
+[Technology](https://github.com/mevaldovi/Fitness-Tracker#Technology)
 
-[Installation](https://github.com/mevaldovi/Homework14_FitnessTracker#Installation)
-
-
-[Usage](https://github.com/mevaldovi/Homework14_FitnessTracker#Usage)
+[Installation](https://github.com/mevaldovi/Fitness-Tracker#Installation)
 
 
-[License](https://github.com/mevaldovi/Homework14_FitnessTracker#License)
+[Usage](https://github.com/mevaldovi/Fitness-Tracker#Usage)
 
 
-[Contact Info](https://github.com/mevaldovi/Homework14_FitnessTracker#Contact)
+[License](https://github.com/mevaldovi/Fitness-Tracker#License)
 
 
-[Agnowledgments](https://github.com/mevaldovi/Homework14_FitnessTracker#Agknowledgments)
+[Contact Info](https://github.com/mevaldovi/Fitness-Tracker#Contact)
+
+
+[Agnowledgments](https://github.com/mevaldovi/Fitness-Tracker#Agknowledgments)
 
 # Installation
-[Deployed app](https://fitness-tracker-mv.herokuapp.com/?id=611d8e37e2be680016012733). 
+[Deployed app](). 
 
 
 If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.

@@ -29,6 +29,8 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Installation
 [Deployed app](https://fitness-tracker-mv.herokuapp.com/?id=611d8e37e2be680016012733). 
+
+
 If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.
 # Usage
 Simply open the application, click "New Workout" and have fun with it!

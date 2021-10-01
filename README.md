@@ -3,7 +3,9 @@
 
 
 ## Description
-Creates a fitness tracker that allows a user to view, track , and create daily workouts. A training athlete, whether in professional or personal pursuit, can better achieve daily and weekly fitness goals if they can also track their workouts. The user can either create new workouts or continue with their last workout.
+[Deployed App](https://the-fitness-tracker2.herokuapp.com/). 
+
+Creates a fitness tracker that allows a user to view, track, and create daily workouts. A training athlete, whether in professional or personal pursuit, can better achieve daily and weekly fitness goals if they can also track their workouts. The user can either create new workouts or continue with their last workout.
 
 ## Technology 
 HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
@@ -28,8 +30,6 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 [Agnowledgments](https://github.com/mevaldovi/Fitness-Tracker#Agknowledgments)
 
 # Installation
-[Deployed app](https://the-fitness-tracker2.herokuapp.com/). 
-
 
 If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.
 # Usage

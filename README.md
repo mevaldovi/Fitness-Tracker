@@ -1,9 +1,11 @@
 # Fitness-Tracker
+
+[Deployed App](https://the-fitness-tracker2.herokuapp.com/)
+
 <img width="464" alt="fitness-tracker" src="https://user-images.githubusercontent.com/83307023/135528279-7452f284-1dac-4639-9314-ddcff1de1958.PNG">
 
 
-## Description
-[Deployed App](https://the-fitness-tracker2.herokuapp.com/). 
+## Description 
 
 Creates a fitness tracker that allows a user to view, track, and create daily workouts. A training athlete, whether in professional or personal pursuit, can better achieve daily and weekly fitness goals if they can also track their workouts. The user can either create new workouts or continue with their last workout.
 

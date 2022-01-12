@@ -33,7 +33,17 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Installation
 
-If the link does not work, you can just clone down this repo, install the node packages using the command "npm i" in your terminal, and then after installation type "node server.js/npm start" in the same terminal.
+If the link does not work, do the following:
+
+- Clone this repo
+
+- Open a terminal
+
+- Run npm install
+
+- Run node server.js
+
+- Visit http://localhost:3000
 # Usage
 Simply open the application, click "New Workout" and have fun with it!
 # License

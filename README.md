@@ -41,9 +41,15 @@ If the link does not work, do the following:
 
 - npm install
 
+- Create MongoDB database
+
+- npm run seed
+
+- cd server.js
+
 - node server.js
 
-- Visit http://localhost:3001
+- Visit http://localhost:3000 to view in browser.
 # Usage
 Simply open the application, click "New Workout" and have fun with it!
 # License

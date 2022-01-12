@@ -1,6 +1,6 @@
 # Fitness-Tracker
 
-[Deployed App](https://the-fitness-tracker2.herokuapp.com/)
+Deployed app: [https://the-fitness-tracker2.herokuapp.com](https://the-fitness-tracker2.herokuapp.com)
 
 <img width="464" alt="fitness-tracker" src="https://user-images.githubusercontent.com/83307023/135528279-7452f284-1dac-4639-9314-ddcff1de1958.PNG">
 
@@ -39,9 +39,9 @@ If the link does not work, do the following:
 
 - Open a terminal
 
-- Run npm install
+- npm install
 
-- Run node server.js
+- node server.js
 
 - Visit http://localhost:3001
 # Usage

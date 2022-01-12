@@ -43,7 +43,7 @@ If the link does not work, do the following:
 
 - Run node server.js
 
-- Visit http://localhost:3000
+- Visit http://localhost:3001
 # Usage
 Simply open the application, click "New Workout" and have fun with it!
 # License

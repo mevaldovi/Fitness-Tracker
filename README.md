@@ -33,28 +33,32 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Installation
 
-If the link does not work, do the following:
-
 - Clone this repo
 
-- Open a terminal
+- Download & install NodeJS on your machine at [https://nodejs.org/en](https://nodejs.org/en)
 
 - npm install
 
 - Create MongoDB database
 
+- If running locally update the MONGODB_URI with your connection string in a .env file
+
+- If running on a server or hosting platform add the MONGODB_URI with connection string to the environment variables
+
 - npm run seed
 
 - cd server.js
 
-- node server.js
+- node server.js || npm start
 
-- Visit http://localhost:3000 to view in browser.
+- Visit http://localhost:3000 to view in browser if application does not load.
 # Usage
 Simply open the application, click "New Workout" and have fun with it!
 # License
 None at this time.
 # Contact
+If something isn't working correctly or you have questions,
+
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments
 A special thanks to my classmates Jessamyn McTwigan and Christyn Garcia for letting me reference their code.

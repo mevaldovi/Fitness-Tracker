@@ -43,7 +43,7 @@ Bold text indicates commands in the terminal; italicized text indicates steps to
 
 - _Create MongoDB database_
 
-- _If running locally, update the MONGODB_URI with your connection string in a .env file_
+- _If running locally, update the MONGODB_URI with your connection string in the server.js file
 
 - _If running on a server or hosting platform ex. Heroku, add the MONGODB_URI with connection string to the environment variables_
 

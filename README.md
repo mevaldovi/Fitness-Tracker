@@ -13,12 +13,10 @@ Creates a fitness tracker that allows a user to view, track, and create daily wo
 
 [<img alt="medium" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />](https://html.com/document)
 [<img alt="medium" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />](https://devdocs.io/css)
-<!-- [<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]()
-[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]
-[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]
-[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />] -->
+[<img alt="medium" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[<img alt="medium" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />](https://www.mongodb.com/docs)
+[<img alt="medium" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />](https://devcenter.heroku.com/categories/reference)
 
-HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Table of Contents
 [Description](https://github.com/mevaldovi/Fitness-Tracker#Description)
@@ -41,13 +39,11 @@ HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Installation
 
-Bold text indicates commands in the terminal; italicized text indicates steps to take
-
 - _Clone this repo_
 
 - _Download & install NodeJS on your machine at [https://nodejs.org/en](https://nodejs.org/en)_
 
-- **npm install**
+- `npm install`
 
 - _Create MongoDB database_
 
@@ -55,11 +51,11 @@ Bold text indicates commands in the terminal; italicized text indicates steps to
 
 - _If running on a server or hosting platform ex. Heroku, add the MONGODB_URI with connection string to the environment variables_
 
-- **npm run seed**
+- `npm run seed`
 
-- **cd server.js**
+- `cd server.js`
 
-- **node server.js || npm start**
+- `node server.js` || `npm start`
 
 - _Visit https://localhost:3000 to view in browser if application does not load._
 # Usage
@@ -67,7 +63,10 @@ Simply open the application, click "New Workout" and have fun with it!
 # License
 None at this time.
 # Contact
-If something isn't working correctly or you have questions,
+Github: [https://github.com/mevaldovi](https://github.com/mevaldovi)
+
+LinkedIn : [https://www.linkedin.com/in/marie-valdovinos-a616b21b1/](https://www.linkedin.com/in/marie-valdovinos-a616b21b1)
+
 
 Shoot me an email:[mevaldovi@gmail.com](mailto:mevaldovi@gmail.com)
 # Agknowledgments

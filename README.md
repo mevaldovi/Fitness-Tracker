@@ -9,7 +9,15 @@ Deployed app: [https://the-fitness-tracker2.herokuapp.com](https://the-fitness-t
 
 Creates a fitness tracker that allows a user to view, track, and create daily workouts. A training athlete, whether in professional or personal pursuit, can better achieve daily and weekly fitness goals if they can also track their workouts. The user can either create new workouts or continue with their last workout.
 
-## Technology 
+## Technology
+
+[<img alt="medium" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />](https://html.com/document)
+[<img alt="medium" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />](https://devdocs.io/css)
+<!-- [<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]()
+[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]
+[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />]
+[<img alt="medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />] -->
+
 HTML, CSS, JavaScript, Git, MongoDB, Atlas, & Heroku.
 
 # Table of Contents
